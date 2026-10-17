@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vidriería Rivera">
+  <defs>
+    <linearGradient id="vr-a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2E57"/>
+      <stop offset="1" stop-color="#1667B5"/>
+    </linearGradient>
+    <linearGradient id="vr-b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#BFE6FF" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#5FB8F0" stop-opacity=".55"/>
+    </linearGradient>
+  </defs>
+  <!-- Panel trasero (vidrio azul profundo) -->
+  <rect x="4" y="4" width="44" height="44" rx="10" fill="url(#vr-a)"/>
+  <!-- Panel delantero (vidrio celeste translúcido, superpuesto) -->
+  <rect x="16" y="16" width="44" height="44" rx="10" fill="url(#vr-b)" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="1.5"/>
+  <!-- Monograma V R -->
+  <path d="M22 26 L30 46 L38 26" fill="none" stroke="#0A2E57" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 46 V26 h6.5 a6 6 0 0 1 0 12 H42 M47.5 38 L53 46" fill="none" stroke="#0A2E57" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Destello de reflejo -->
+  <path d="M10 22 L22 10 M10 30 L30 10" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
